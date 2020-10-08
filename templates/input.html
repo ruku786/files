@@ -1,0 +1,11 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+  <select>
+    <option selected disabled="true">Select table</option>
+    {% for modeldisplay in
+  </select>
+  <br><br>
+    <input type="file" name="myfile">
+    <button type="submit">Upload</button>
+  </form>
